@@ -1,13 +1,14 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Jumbotron from 'react-bootstrap/Jumbotron';
-import Button from 'react-bootstrap/Button';
-import Table from 'react-bootstrap/Table';
-import IsraelHarvin from './images/israel.jpg';
+// import Jumbotron from 'react-bootstrap/Jumbotron';
+// import Button from 'react-bootstrap/Button';
+// import Table from 'react-bootstrap/Table';
+// import IsraelHarvin from './images/israel.jpg';
 
 export const Home = () => (
     <div>
-        <Jumbotron className="jumbotron">
+        <h1>Home Page</h1>
+        {/* <Jumbotron className="jumbotron">
         <h1>The New Beginning to Programming.</h1>
         <img src={IsraelHarvin} className="IsraelHarvin" alt="Israel Harvin" width="200" height="200"></img>
         <p> Creatively-driven Front-End Web Developer focused on 
@@ -70,16 +71,15 @@ export const Home = () => (
 
         <div>
         <p><strong>Email: izzy84.ih@gmail.com</strong></p>
-        </div>
+        </div> */}
         
-        <p>
+        {/* <p>
             <Button variant="primary" className="github-button" href="https://github.com/Izzyharvin">GitHub page</Button>
             <Button variant="primary" className="linkedin-button" href="https://www.linkedin.com/in/israel-harvin-7527a6138/">LinkedIn page</Button>
-        </p>
-        </Jumbotron>
+        </p> */}
 
-        <div className="footer">
+        {/* <div className="footer">
             <h6 className="copyright">Copyright</h6>
-        </div>
+        </div> */}
     </div>
 )
