@@ -1,27 +1,29 @@
-import React, { Component } from 'react';
+import React from 'react';
+import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
+import Home from './components/pages/Home';
+import Portfolio from './components/pages/Portfolio';
+import Resume from './components/pages/Resume';
+import NoMatch from './components/pages/NoMatch';
+import Nav from './components/Nav';
+import Footer from './components/Footer';
 import 'bootstrap/dist/css/bootstrap.min.css';
-// import {Browser as Router, Route, Switch} from 'react-router-dom';
-// import {Home} from './Home';
-// import {Portfolio} from './Portfolio';
-// import {NoMatch} from './NoMatch';
 
 
-class App extends Component {
-  render() {
-    return (
-      <h1>App</h1>
-      // <React.Fragment>
-      //   <Router>
-      //     <Switch>
-      //       <Route exact path="/" component={Home} />
-      //       {/* <Route path="/about" component={Resume} /> */}
-      //       <Route path="/contact" component={Portfolio} />
-      //       <Route component={NoMatch} />
-      //     </Switch>
-      //   </Router>
-      // </React.Fragment>
-    );
-  }
+function App() {
+  return (
+    <Router>
+      <div>
+        <Nav />
+        <Switch>
+          <Route exact path="/" component={Home} />
+          <Route exact path="/resume" component={Resume} />
+          <Route exact path="/portfolio" component={Portfolio} />
+          <Route component={NoMatch} />
+        </Switch>
+        <Footer />
+      </div>
+    </Router>
+  );
 }
 
 export default App;
