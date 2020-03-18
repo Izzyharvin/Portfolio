@@ -1,0 +1,14 @@
+.IsraelHarvin {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+     width: 20%;
+}
+
+p, .title {
+    text-align: center;
+}
+
+table {
+    text-align: center;
+}

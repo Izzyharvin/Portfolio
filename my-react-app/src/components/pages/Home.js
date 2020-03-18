@@ -9,7 +9,7 @@ function Home() {
         <div>
             <div className="jumbotron jumbotron-fluid">
                 <div className="container">
-                    <h1 className="title">The New Beginning to Programming.</h1>
+                    <h1 className="title">The New Beginning to Programming</h1>
                     <img src={IsraelHarvin} className="IsraelHarvin" alt="Israel Harvin" ></img>
                     <p className="description">Creatively-driven Front-End Web Developer focused on 
                     building attractive and functional webpages. Educated at The Art 
