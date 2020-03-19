@@ -31,9 +31,6 @@ class Nav extends Component {
                 <Link className='nav-link' to='/' onClick={this.toggleCollapse}>Home</Link>
               </li>
               <li className='nav-item'>
-                <Link className='nav-link' to='/resume' onClick={this.toggleCollapse}>Resume</Link>
-              </li>
-              <li className='nav-item'>
                 <Link className='nav-link' to='/portfolio' onClick={this.toggleCollapse}>Portfolio</Link>
               </li>
             </ul>
